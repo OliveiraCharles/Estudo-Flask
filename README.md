@@ -12,6 +12,8 @@ Este estudo tem como finalidade o desenvolvimento de uma PWA utilizando dessa te
 
 ## Instalando Flask
 
+> [Documentação Original](https://flask.palletsprojects.com/en/2.2.x/installation/)
+
 ### Criando ambiente Virtual
 
 1. Com o vsCode aberto inicialize o terminal **cmd**
@@ -26,21 +28,21 @@ Este estudo tem como finalidade o desenvolvimento de uma PWA utilizando dessa te
 
 ### Ativando o Ambiente Virtual
 
-   ```ps
-   .\venv\Scripts\activate
-   ```
+```ps
+.\venv\Scripts\activate
+```
 
 ### Instalando
 
-   ```ps
-   pip install flask
-   ```
+```ps
+pip install flask
+```
 
 ### Instalando Requisitos
 
-   ```ps
-   python -m pip install -r requirements.txt
-   ```
+```ps
+python -m pip install -r requirements.txt
+```
 
 ### Criando arquivo de Requisitos
 
@@ -54,7 +56,7 @@ Este estudo tem como finalidade o desenvolvimento de uma PWA utilizando dessa te
 
 ### Criando arquivo app.py
 
-## MVP - Hello Word!
+## MVP - Hello Word
 
 ### Colocando o site no ar
 
@@ -73,11 +75,17 @@ if __name__ == "__main__":
 
 > O terminal deve indicar o endereço no qual a pagina será exibida, geralmente: `http://127.0.0.1:5000`
 
+### Instalando banco de dados SQL-Alchemy
+
+```ps
+pip install flask-sqlalchemy
+```
+
 ## Efetuando o deploy do site
 
 ## Padrões
+
 - Pastas
-   
 
 ## Referencias
 
